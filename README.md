@@ -7,6 +7,8 @@ the general idea of what has worked for me.
 There is also a fabric command to dump and fetch the remote mongo database which has proved useful to recreate production
 data when debugging issues.
 
+Note: this script assumes you have Meteorite installed.  Change the mrt commands to meteor if you are not using Meteorite!
+
 ## Installation
 
 Install python, install fabric via pip, copy fabfile.py to the root of your meteor app.  Edit the settings at the top of fabfile.py.
