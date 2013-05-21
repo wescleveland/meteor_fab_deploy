@@ -1,10 +1,8 @@
 # Fabric script for deploying meteor apps
 
 This is a quick and dirty script to satisfy the requirements I had for quickly deploying a meteor app.
-
-
-
-This package was created because the existing nvd3 package's github repo seems to have been made private.
+Note: I quickly generalized the script I am currently using to create this, there may be typos, errors, etc but this is
+the general idea of what has worked for me.
 
 ## Installation
 
