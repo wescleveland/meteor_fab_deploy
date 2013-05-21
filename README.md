@@ -4,6 +4,9 @@ This is a quick and dirty script to satisfy the requirements I had for quickly d
 Note: I quickly generalized the script I am currently using to create this, there may be typos, errors, etc but this is
 the general idea of what has worked for me.
 
+There is also a fabric command to dump and fetch the remote mongo database which has proved useful to recreate production
+data when debugging issues.
+
 ## Installation
 
 Install python, install fabric via pip, copy fabfile.py to the root of your meteor app.  Edit the settings at the top of fabfile.py.
