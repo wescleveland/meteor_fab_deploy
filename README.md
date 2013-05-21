@@ -11,25 +11,25 @@ Install python, install fabric via pip, copy fabfile.py to the root of your mete
 ## Examples
 
 List commands
-'''
+``` sh
 $ fab help
-'''
+```
 
 Deploy app
-'''
+``` sh
 $ fab deploy
-'''
+```
 
 Restart forever process
-'''
+``` sh
 $ fab restart_app
-'''
+```
 
 Fetch a dump of the app's mongo db
-'''
+``` sh
 $ fab get_mongo_dump
 $ tar -xvf dump.tar.gz
 $ mongorestore
-'''
+```
 
 Pull requests welcomed, there are most likely better ways of doing these actions but this worked for my simple needs.
