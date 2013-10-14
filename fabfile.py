@@ -66,7 +66,7 @@ def deploy_linode():
 @roles('linode')
 def start_app():
     run('cd %(remote_path)s; export MONGO_URL="mongodb://localhost:27017/\
-        meteor"; export ROOT_URL="https://figs.thenuts.in"; \
+        meteor"; export ROOT_URL="https://YOURURL HERE"; \
         export PORT="3000"; forever start -l %(log_dir)s/forever.log \
         -a -o %(log_dir)s/out.log -e %(log_dir)s/err.log main.js' %
         {'remote_path': remote_path, 'log_dir': log_dir})
